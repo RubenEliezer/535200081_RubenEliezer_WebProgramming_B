@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>querySelector() Demo</title>
+
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="img/person.svg" alt="Logo" id="logo">
+        </div>
+        <nav class="primary-nav">
+            <ul>
+                <li class="menu-item current"><a href="#home">Home</a></li>
+                <li class="menu-item"><a href="#services" target="_blank">Services</a></li>
+                <li class="menu-item"><a href="#about">About</a></li>
+                <li class="menu-item"><a href="#contact">Contact</a></li>
+                
+
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+
+        <h1>Welcome to the JS Dev Agency</h1>
+
+        <div class="container">
+            <section class="section-a">
+                <h2>UI/UX</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, illo totam pariatur, tempora magnam dolorem voluptatem nulla nesciunt modi ipsam porro sint. Nostrum facilis placeat non excepturi minima incidunt odit!</p>
+                <button>Read More</button>
+            </section>
+            <section class="section-b">
+                <h2>PWA Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, illo totam pariatur, tempora magnam dolorem voluptatem nulla nesciunt modi ipsam porro sint. Nostrum facilis placeat non excepturi minima incidunt odit!</p>
+                <button>Read More</button>
+            </section>
+            <section class="section-c">
+                <h2>Mobile App Dev</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, illo totam pariatur, tempora magnam dolorem voluptatem nulla nesciunt modi ipsam porro sint. Nostrum facilis placeat non excepturi minima incidunt odit!</p>
+                <button>Read More</button>
+            </section>
+        </div>
+    </main>
+    <br>
+    <button onclick="myUniversal()">Universal Selector</button>
+    <button onclick="myType()">Type Selector</button>
+    <button onclick="myClass()">Class Selector</button>
+    <button onclick="myId()">Id Selector</button>
+    <button onclick="myAttribute()">Attribute Selector</button>
+    <button onclick="myGroup()">Group Selector</button>
+    <script src="main.js"></script>
+</body>
+</html>

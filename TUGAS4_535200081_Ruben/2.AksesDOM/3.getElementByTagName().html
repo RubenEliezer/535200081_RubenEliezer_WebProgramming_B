@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript getElementsTagName() Demo</title>
+</head>
+<body>
+    <h1>JavaScript getElementsTagName() Demo</h1>
+    <h2>First heading</h2>
+    <p>Ini adalah paragraf pertama</p>
+    <h2>Second heading</h2>
+    <p>Ini adalah paragraf kedua</p>
+    <h2>Third heading</h2>
+    <p>Ini adalah paragraf ketiga</p>
+
+    <button id="btnCount">Count H2</button>
+
+    <script>
+        let btn = document.getElementById('btnCount');
+        btn.addEventListener('click', () => {
+            let headings = document.getElementsByTagName('h2');
+            alert(`The number of H2 tags: ${headings.length}`)
+        });
+    </script>
+</body>
+</html>

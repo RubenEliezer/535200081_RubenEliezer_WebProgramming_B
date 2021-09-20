@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS childNodes[nodenumber]</title>
+</head>
+<body>
+    <ul id="menu">
+        <li class="first">Home</li>
+        <li>Products</li>
+        <li class="current">Customer Support</li>
+        <li>Careers</li>
+        <li>Investors</li>
+        <li>News</li>
+        <li class="last">About Us</li>
+    </ul>
+
+    <script>
+        let content = document.getElementById('menu');
+        
+        // 3.2.1. first child
+        let firstChild = content.firstChild.nodeName;
+        let firstElementChild = content.firstElementChild;
+        console.log(firstElementChild);
+        console.log(firstChild);
+ 
+        // 3.2.2. last child
+        let lastChild = content.lastElementChild;
+        console.log(lastChild);
+
+        // 3.2.3 seluruh elemen child
+        let childNodes = content.childNodes;
+        let children = content.children;
+        console.log(childNodes);
+        console.log(children);
+    </script>
+</body>
+</html>
