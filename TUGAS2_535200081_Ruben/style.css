@@ -1,0 +1,47 @@
+#image
+{
+background-image:url("sjcstore.jpg");
+padding-left:100px;
+height:210px;
+}
+#header{
+background-color:#5f9ead;
+color:white;
+text-align:center;
+padding:5px;
+padding-left:150px;
+}
+#nav1{
+line-height:15px;
+height:400px;
+width:200px;
+float:left;
+padding:8px;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+li {
+float: left;
+}
+
+a:link, a:visited {
+display: block;
+width: 120px;
+font-weight: bold;
+color:black;
+background-color: #5f9ead;
+text-align:center;
+padding:10px;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+a:hover, a:active {
+background-color:white;
+}
