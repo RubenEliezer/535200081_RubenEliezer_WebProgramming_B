@@ -1,0 +1,18 @@
+{
+    "name": "tugas9_535200081_ruben",
+    "version": "1.0.0",
+    "description": "EJS",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "(https://github.com/RubenEliezer/535200081_RubenEliezer_WebProgramming_B)"
+    },
+    "author": "Ruben",
+    "license": "ISC",
+    "devDependencies": {
+      "express": "^4.17.1"
+    }
+}
