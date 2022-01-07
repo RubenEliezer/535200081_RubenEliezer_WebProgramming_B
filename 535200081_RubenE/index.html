@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
+    <link rel="stylesheet" href="css/sytle.css">
+
+    <title>EatEasy</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1 class="logo-text"><span>Eat</span>Easy</h1>
+        </div>
+        <i class="fa fa-bars menu-toggle"></i>
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Makanan</a></li>
+            <li><a href="#">Minuman</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Login</a></li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-user"></i>
+                    Ruben Eliezer
+                    <i class="fa fa-chevron-down" style="font-size: 8em;"></i>
+                </a>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#" class="logout">Logout</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+
+    <div class="page-wrapper">
+
+        <div class="post-slider">
+            <h1 class="slider-title">Trending Foods</h1>
+            <i class="fas fa-chevron-left prev"></i>
+            <i class="fas fa-chevron-right next"></i>
+
+            <div class="post-wrapper">
+                <div class="post">
+                    <img src="images/images_9.jpg" alt="" class="slider-image">
+                    <div class="post-info">
+                        <h4><a href="single.html">Kepiting</a></h4>
+                        <i class="far fa-user">Toko-A</i>
+                        &nbsp;
+                        <i class="far fa-calendar">Jan 6,2022</i>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <img src="images/cireng.jpg" alt="" class="slider-image">
+                    <div class="post-info">
+                        <h4><a href="single.html">Cireng</a></h4>
+                        <i class="far fa-user">Toko-B</i>
+                        &nbsp;
+                        <i class="far fa-calendar">Jan 5,2022</i>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <img src="images/dimsum.jpg" alt="" class="slider-image">
+                    <div class="post-info">
+                        <h4><a href="single.html">Dimsum</a></h4>
+                        <i class="far fa-user">Toko-C</i>
+                        &nbsp;
+                        <i class="far fa-calendar">Jan 4,2022</i>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <img src="images/lumpia.jpg" alt="" class="slider-image">
+                    <div class="post-info">
+                        <h4><a href="single.html">Lumpia</a></h4>
+                        <i class="far fa-user">Toko-D</i>
+                        &nbsp;
+                        <i class="far fa-calendar">Jan 3,2022</i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="content clearfix">
+
+            <div class="main-content">
+                <h1 class="recent-post-title">Recent Posts</h1>
+
+                <div class="post clearfix">
+                    <img src="images/images_4.jpeg" alt="" class="post-image">
+                    <div class="post-preview">
+                        <h2><a href="single.html">Nasi Goreng</a></h2>
+                        <i class="far fa-user"> Toko-B</i>
+                        &nbsp;
+                        <i class="far fa-calendar"> Jan 7, 2022</i>
+                        <p class="preview-tex">
+                            Nasi Goreng ini di buat dengan rasa yang menggiurkan lidah.
+                            dengan toping-toping yang berlimpah...
+                        </p>
+                        <a href="single.html" class="btn read-more">Read More</a>
+                    </div>
+                </div>
+
+                <div class="post clearfix">
+                    <img src="images/images_6.jpg" alt="" class="post-image">
+                    <div class="post-preview">
+                        <h2><a href="single.html">Rendang</a></h2>
+                        <i class="far fa-user"> Toko-R</i>
+                        &nbsp;
+                        <i class="far fa-calendar"> Jan 7, 2022</i>
+                        <p class="preview-tex">
+                            Rendang merupakan salah satu makanan khas dari negara Indonesia.
+                            Tentunya rasa yang ada dalam rendang ini sangatlah menggugah selera...
+                        </p>
+                        <a href="single.html" class="btn read-more">Read More</a>
+                    </div>
+                </div>
+                
+                <div class="post clearfix">
+                    <img src="images/soto-betawi.jpg" alt="" class="post-image">
+                    <div class="post-preview">
+                        <h2><a href="single.html">Soto Betawi</a></h2>
+                        <i class="far fa-user"> Toko-B</i>
+                        &nbsp;
+                        <i class="far fa-calendar"> Jan 7, 2022</i>
+                        <p class="preview-tex">
+                            Soto Betawi makanan khas Jakarta ini memiliki banyak peminat.
+                            dengan rasa yang membuat yang memakannya ketagihan...
+                        </p>
+                        <a href="single.html" class="btn read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slidebar">
+
+                <div class="section search">
+                    <h2 class="section-title">Search</h2>
+                    <form action="index.html"method="post">
+                        <input type="text" name="search-term" class="text-input" placeholder="Search...">
+                    </form>
+                </div>
+
+                <div class="section topics">
+                    <h2 class="section-title">Topics</h2>
+                    <ul>
+                        <li><a href="#">Healty Food</a></li>
+                        <li><a href="#">Heaty Drink</a></li>
+                        <li><a href="#">Cheat Day Time</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="footer">
+            <div class="footer-content">
+
+                <div class="footer-section about">
+                    <h1 class="logo-text"><span>Eat</span>Easy</h1>
+                    <p>
+                        EatEasy selalu ingin membuat coustumer yang membeli di sini dengan rasa puas.
+                        Bagaimana pun kami akan terus meningkatkan pelayanan kami kepada para pembeli.
+                    </p>
+                    <div class="contact">
+                        <span><i class="fas fa-phone"></i> &nbsp; 021-2345-6789</span>
+                        <span><i class="fas fa-envelope"></i> &nbsp; info@eateasy.com</span>
+                    </div>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section links">
+                    <h2>Quick Links</h2>
+                    <br>
+                    <ul>
+                        <a href="#">
+                            <li>Gallery</li>
+                        </a>
+                        <a href="#">
+                            <li>Terms and Conditions</li>
+                        </a>
+                        <a href="#">
+                            <li>Team</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="footer-section contact-form">
+                    <h2>Contact us</h2>
+                    <br>
+                    <form action="index.html" method="post">
+                      <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+                      <textarea rows="4" name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+                      <button type="submit" class="btn btn-big contact-btn">
+                        <i class="fas fa-envelope"></i>
+                        Send
+                      </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                &copy; eateasy.com | Designed by RubenEliezer
+              </div>
+        </div>
+
+         <!-- JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Slick Carousel -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <!-- Custom Script -->
+  <script src="js/scripts.js"></script>
+
+</body>
+</html>
